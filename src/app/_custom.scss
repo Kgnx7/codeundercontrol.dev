@@ -1,0 +1,15 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,400;0,600;1,400&display=swap");
+
+$blue: #6607ff;
+$purple: #9e49ee;
+$cyan: #12a3ea;
+$body-color: #3b485a;
+
+$enable-responsive-font-sizes: true !default;
+
+.bp-gradient-primary {
+  background: rgb(102, 7, 255);
+  background: linear-gradient(90deg, rgba($blue, 1) 0%, rgba($purple, 1) 100%);
+}
+
+@import "node_modules/bootstrap/scss/bootstrap";

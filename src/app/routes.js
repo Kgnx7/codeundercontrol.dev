@@ -1,1 +1,4 @@
-export default [["/", () => ({ page: "starter" })]];
+export default [
+  ["/", () => ({ page: "starter" })],
+  ["/conference", () => ({ page: "conference" })],
+];
